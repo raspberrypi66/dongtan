@@ -18,7 +18,7 @@ BH1750 lightMeter;
 
 void setup(){
 
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   // Initialize the I2C bus (BH1750 library doesn't do this automatically)
   Wire.begin();
